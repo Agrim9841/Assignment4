@@ -53,7 +53,17 @@ header {
   color: var(--base-color);
 }
 
-.card-container{
-  background-color: grey;
+body{
+  background-color: lightcoral;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  width: 400px;
+  box-shadow: 1px 1px 3px grey;
   padding: 20px;
+  border-radius: 8px;
+  background-color: white;
 }
